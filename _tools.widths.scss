@@ -35,7 +35,6 @@ $inuit-use-fractions: true !default;
         @if ($inuit-widths-denominator == 1) {
             .#{$inuit-widths-namespace}u-1#{$inuit-widths-delimiter}1#{$inuit-widths-breakpoint} {
                 width: 100% !important;
-                flex: none;
             }
         } @else {
 
@@ -46,7 +45,7 @@ $inuit-use-fractions: true !default;
                 // Build a class in the format `.u-3/4` or `.u-3-of-4`.
                 .#{$inuit-widths-namespace}u-#{$inuit-widths-numerator}#{$inuit-widths-delimiter}#{$inuit-widths-denominator}#{$inuit-widths-breakpoint} {
                     width: ($inuit-widths-numerator / $inuit-widths-denominator) * 100% !important;
-                    flex: none;
+                    flex: none !important;
                 }
 
             }
