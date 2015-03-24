@@ -20,8 +20,14 @@ Once installed, `@import` into your project's Sass file in its Tools layer:
 
 See [px-getting-started](https://github.sw.ge.com/pxc/px-getting-started#a-note-about-relative-import-paths) for an explanation of the `../`
 
+## Usage
+
+This flag is available and, if needed, should be set to false prior to importing the module:
+
+    $inuit-use-fractions
+
 ## Mixin provided
 
 The following mixin is provided:
 
-* `inuit-widths`: Generates series of classes in the format `.u-7/12` to be used for sizing.
+* `inuit-widths`: Generates series of classes in the format `.u-7/12` or `.u-7-of-12` (dependent on how the `$inuit-use-fractions` flag is set) to be used for sizing.
