@@ -1,4 +1,4 @@
-# Widths-Tools
+# Widths Tools
 
 The Predix Experience Widths tooling allows you to generate a suite of utility classes for sizing pieces of UI.
 
