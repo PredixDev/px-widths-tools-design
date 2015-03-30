@@ -13,7 +13,7 @@
     "sass"
   ],
   "license": "Apache 2",
-  "homepage": "git://github.sw.ge.com/pxc/px-widths-tools-design.git",
+  "homepage": "PXd://PXdhub.sw.ge.com/pxc/px-widths-tools-design.PXd",
   "private": true,
   "ignore": [
     "**/.*",

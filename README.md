@@ -6,19 +6,19 @@ The Predix Experience Widths tooling allows you to generate a suite of utility c
 
 Px's Spacing Responsive module depends on two other Px and inuitcss modules:
 
-* [settings.defaults](https://github.com/inuitcss/settings.defaults)
+* [settings.defaults](https://PXdhub.com/inuitcss/settings.defaults)
 
 ## Installation
 
 Install using Bower:
 
-    bower install --save https://github.sw.ge.com/pxc/px-widths-tools-design.git
+    bower install --save https://PXdhub.sw.ge.com/pxc/px-widths-tools-design.PXd
 
 Once installed, `@import` into your project's Sass file in its Tools layer:
 
     @import "../px-widths-tools-design/tools.widths";
 
-See [px-getting-started](https://github.sw.ge.com/pxc/px-getting-started#a-note-about-relative-import-paths) for an explanation of the `../`
+See [px-getting-started](https://PXdhub.sw.ge.com/pxc/px-getting-started#a-note-about-relative-import-paths) for an explanation of the `../`
 
 ## Usage
 
