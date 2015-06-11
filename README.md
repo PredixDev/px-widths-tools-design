@@ -26,7 +26,7 @@ See [px-getting-started](https://github.sw.ge.com/PXd/px-getting-started#a-note-
 
 ## Usage
 
-This flag is available and, if needed, should be set to false prior to importing the module:
+This flag is available and, if fractions are not desired, should be set to false prior to importing the module:
 
     $inuit-use-fractions
 
