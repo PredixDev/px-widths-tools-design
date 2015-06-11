@@ -1,10 +1,14 @@
 # Widths Tools
 
-The Predix Experience Widths tooling allows you to generate a suite of utility classes for sizing pieces of UI.
+The Predix Experience Widths Tools allows you to generate a suite of utility classes for sizing pieces of UI.
 
-## Dependencies
+## Sass Documentation
 
-Px's Spacing Responsive module depends on one other PXd modules:
+You can review Sass Documentation here: https://github.build.ge.com/pages/PXd/px-widths-tools-design/sassdoc
+
+## Dependency
+
+Px's Widths Tools module depends on one other PXd module:
 
 * [px-defaults-design](https://github.sw.ge.com/PXd/px-defaults-design)
 
