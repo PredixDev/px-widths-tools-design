@@ -1,30 +1,28 @@
-///*------------------------------------*\
-//    #WIDTHS
-//\*------------------------------------*/
-
-// A mixin to spit out our width classes. Pass in the columns we want the widths
-// to have, and an optional suffix for responsive widths. E.g. to create thirds
-// and quarters for a small breakpoint:
-//
-// @include inuit-widths(3 4, -sm);
+////
+/// PX-WIDTHS-TOOLS-DESIGN
+/// A mixin to spit out our width classes
+/// @group px-widths-tools-design
+////
 
 @import "../px-defaults-design/settings.defaults";
 
-// Predefine the variables below in order to alter and enable specific features.
-$inuit-widths-namespace: $inuit-namespace !default;
+/// @type String [default] - Prepend value for all generated classes
+$inuit-widths-namespace   : $inuit-namespace !default;
 
-// Do we want to use classes like `<div class="u-1/4">` instead of
-// `<div class="u-1-of-4">`?
-$inuit-use-fractions: true !default;
+/// @type Boolean [default] - Do we want to use classes like u-1/4 instead of u-1-of-4?
+$inuit-use-fractions      : true !default;
 
-// Depending on what we chose for `$inuit-use-fractions`, create the relevant
-// delimiter.
+// Depending on what we chose for `$inuit-use-fractions`, create the relevant delimiter.
 @if ($inuit-use-fractions == true) {
     $inuit-widths-delimiter: \/ !global;
 } @else {
     $inuit-widths-delimiter: -of- !global;
 }
 
+/// @name inuit-widths
+/// @param {Number} $inuit-widths-columns - Number of columns
+/// @param {String} $inuit-widths-breakpoint [null] - Name of breakpoint
+/// @output Pass in the columns we want the widths to have, and an optional suffix for responsive widths. E.g. to create thirds and quarters for a small breakpoint: `@include inuit-widths(3 4, -sm);`
 @mixin inuit-widths($inuit-widths-columns, $inuit-widths-breakpoint: null) {
 
     // Loop through the number of columns for each denominator of our fractions.
