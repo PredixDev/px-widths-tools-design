@@ -4,7 +4,7 @@
 /// @group px-widths-tools-design
 ////
 
-@import "../px-defaults-design/settings.defaults";
+@import "px-defaults-design/_settings.defaults.scss";
 
 /// @type String [default] - Prepend value for all generated classes
 $inuit-widths-namespace   : $inuit-namespace !default;
