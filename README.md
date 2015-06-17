@@ -20,9 +20,7 @@ Install using Bower:
 
 Once installed, `@import` into your project's Sass file in its Tools layer:
 
-    @import "../px-widths-tools-design/tools.widths";
-
-See [px-getting-started](https://github.sw.ge.com/PXd/px-getting-started#a-note-about-relative-import-paths) for an explanation of the `../`
+    @import "px-widths-tools-design/_tools.widths.scss";
 
 ## Usage
 
