@@ -2,9 +2,7 @@
 
 The Predix Experience Widths Tools allows you to generate a suite of utility classes for sizing pieces of UI.
 
-## Sass Documentation
 
-You can review Sass Documentation here: https://github.com/pages/PredixDev/px-widths-tools-design/sassdoc
 
 ## Dependency
 
