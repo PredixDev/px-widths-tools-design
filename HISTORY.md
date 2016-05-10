@@ -1,4 +1,4 @@
-v0.2.7
+v0.2.8
 ==============================
 * updated OSS Notice, and updated README to point to gh-pages page.
 
