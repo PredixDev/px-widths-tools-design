@@ -44,7 +44,7 @@
         }
     },
     {
-        "description": "Do we want to use classes like u-1/4 instead of u-1-of-4?\n",
+        "description": "when this flag is true, it creates classes in the name format `u-1/4`. When false, classes are created with the name format `u-1-of-4`\n",
         "commentRange": {
             "start": 13,
             "end": 15
