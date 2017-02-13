@@ -1,3 +1,11 @@
+v0.3.4
+==================
+* update demo page with px-demo classes
+
+v0.3.3
+==================
+* cloudflare updates
+
 v0.3.2
 ==================
 * changing ghp.sh to account for Alpha releases
