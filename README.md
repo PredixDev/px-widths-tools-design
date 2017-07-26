@@ -1,17 +1,16 @@
-# Widths Tools
+# px-width-tools-design
 
 The Predix UI Widths Tools allows you to generate a suite of utility classes for sizing pieces of UI.
 
 
 ## Dependency
-
-Predix UI's Widths Tools module depends on one other PX module:
+The `px-width-tools-design` module depends on one other Px module:
 
 * [px-defaults-design](https://github.com/PredixDev/px-defaults-design)
 
 ## Installation
 
-Install using Bower:
+Install using bower:
 
     bower install --save px-widths-tools-design
 
@@ -31,4 +30,4 @@ The following mixin is provided:
 
 * `inuit-widths`: Generates series of classes in the format `.u-7/12` or `.u-7-of-12` (dependent on how the `$inuit-use-fractions` flag is set) to be used for sizing.
 
-view the full API [here](http://predixdev.github.io/px-widths-tools-design/sassdoc/)
+View the full API [here](http://predixdev.github.io/px-widths-tools-design/sassdoc/).
