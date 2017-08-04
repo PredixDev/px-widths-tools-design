@@ -1,3 +1,7 @@
+v1.0.1
+==================
+* runtime demo theming
+
 v1.0.0
 ==================
 * updated dependencies for design refresh
