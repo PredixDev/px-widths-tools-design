@@ -2,16 +2,16 @@
     {
         "description": "",
         "commentRange": {
-            "start": 25,
-            "end": 28
+            "start": 41,
+            "end": 44
         },
         "context": {
             "type": "mixin",
             "name": "inuit-widths",
             "code": "\n\n    // Loop through the number of columns for each denominator of our fractions.\n    @each $inuit-widths-denominator in $inuit-widths-columns {\n\n        // If we’re trying to make wholes, just spit a 100% width utility out\n        // one time only.\n        @if ($inuit-widths-denominator == 1) {\n            .#{$inuit-widths-namespace}u-1#{$inuit-widths-delimiter}1#{$inuit-widths-breakpoint} {\n                width: 100% !important;\n            }\n        } @else {\n\n            // Begin creating a numberator for our fraction up until we hit the\n            // denominator.\n            @for $inuit-widths-numerator from 1 to $inuit-widths-denominator {\n\n                // Build a class in the format `.u-3/4` or `.u-3-of-4`.\n                .#{$inuit-widths-namespace}u-#{$inuit-widths-numerator}#{$inuit-widths-delimiter}#{$inuit-widths-denominator}#{$inuit-widths-breakpoint} {\n                    width: ($inuit-widths-numerator / $inuit-widths-denominator) * 100% !important;\n                    flex: none !important;\n                }\n\n            }\n\n        }\n\n    }\n\n",
             "line": {
-                "start": 29,
-                "end": 58
+                "start": 45,
+                "end": 74
             }
         },
         "parameter": [
@@ -36,6 +36,10 @@
             {
                 "type": "variable",
                 "name": "inuit-widths-namespace"
+            },
+            {
+                "type": "variable",
+                "name": "inuit-widths-namespace"
             }
         ],
         "file": {
@@ -46,8 +50,8 @@
     {
         "description": "when this flag is true, it creates classes in the name format `u-1/4`. When false, classes are created with the name format `u-1-of-4`\n",
         "commentRange": {
-            "start": 13,
-            "end": 15
+            "start": 29,
+            "end": 31
         },
         "context": {
             "type": "variable",
@@ -55,8 +59,8 @@
             "value": "true",
             "scope": "default",
             "line": {
-                "start": 16,
-                "end": 16
+                "start": 32,
+                "end": 32
             }
         },
         "type": "Boolean [default]",
@@ -72,8 +76,8 @@
     {
         "description": "Prepend value for all generated classes\n",
         "commentRange": {
-            "start": 8,
-            "end": 11
+            "start": 24,
+            "end": 27
         },
         "context": {
             "type": "variable",
@@ -81,8 +85,8 @@
             "value": "$inuit-namespace",
             "scope": "default",
             "line": {
-                "start": 12,
-                "end": 12
+                "start": 28,
+                "end": 28
             }
         },
         "group": [
@@ -102,8 +106,20 @@
                     "name": "inuit-widths",
                     "code": "\n\n    // Loop through the number of columns for each denominator of our fractions.\n    @each $inuit-widths-denominator in $inuit-widths-columns {\n\n        // If we’re trying to make wholes, just spit a 100% width utility out\n        // one time only.\n        @if ($inuit-widths-denominator == 1) {\n            .#{$inuit-widths-namespace}u-1#{$inuit-widths-delimiter}1#{$inuit-widths-breakpoint} {\n                width: 100% !important;\n            }\n        } @else {\n\n            // Begin creating a numberator for our fraction up until we hit the\n            // denominator.\n            @for $inuit-widths-numerator from 1 to $inuit-widths-denominator {\n\n                // Build a class in the format `.u-3/4` or `.u-3-of-4`.\n                .#{$inuit-widths-namespace}u-#{$inuit-widths-numerator}#{$inuit-widths-delimiter}#{$inuit-widths-denominator}#{$inuit-widths-breakpoint} {\n                    width: ($inuit-widths-numerator / $inuit-widths-denominator) * 100% !important;\n                    flex: none !important;\n                }\n\n            }\n\n        }\n\n    }\n\n",
                     "line": {
-                        "start": 29,
-                        "end": 58
+                        "start": 45,
+                        "end": 74
+                    }
+                }
+            },
+            {
+                "description": "",
+                "context": {
+                    "type": "mixin",
+                    "name": "inuit-widths",
+                    "code": "\n\n    // Loop through the number of columns for each denominator of our fractions.\n    @each $inuit-widths-denominator in $inuit-widths-columns {\n\n        // If we’re trying to make wholes, just spit a 100% width utility out\n        // one time only.\n        @if ($inuit-widths-denominator == 1) {\n            .#{$inuit-widths-namespace}u-1#{$inuit-widths-delimiter}1#{$inuit-widths-breakpoint} {\n                width: 100% !important;\n            }\n        } @else {\n\n            // Begin creating a numberator for our fraction up until we hit the\n            // denominator.\n            @for $inuit-widths-numerator from 1 to $inuit-widths-denominator {\n\n                // Build a class in the format `.u-3/4` or `.u-3-of-4`.\n                .#{$inuit-widths-namespace}u-#{$inuit-widths-numerator}#{$inuit-widths-delimiter}#{$inuit-widths-denominator}#{$inuit-widths-breakpoint} {\n                    width: ($inuit-widths-numerator / $inuit-widths-denominator) * 100% !important;\n                    flex: none !important;\n                }\n\n            }\n\n        }\n\n    }\n\n",
+                    "line": {
+                        "start": 45,
+                        "end": 74
                     }
                 }
             }
